@@ -1,0 +1,16 @@
+<!--
+  <div class="container" *ngFor="">
+ 	<app-display-menu [food]="foods"></app-display-menu>
+</div>
+
+-->
+<div class="container" *ngFor="let food of foods">
+  <app-display-menu [food]="food"></app-display-menu>
+</div>
+
+
+<!--
+<div class="container" *ngFor="let tweet of tweets">
+  <app-display-tweet [tweet]="tweet"></app-display-tweet>
+</div>
+-->
